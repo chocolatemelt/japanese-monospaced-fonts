@@ -1,0 +1,15 @@
+{
+  "name": "@neos21/japanese-monospaced-fonts",
+  "version": "1.0.0",
+  "description": "Japanese Monospaced Fonts : 日本語等幅フォント集",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/japanese-monospaced-fonts.git"
+  },
+  "author": "Neo <neos21@gmail.com> (http://neo.s21.xrea.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Neos21/japanese-monospaced-fonts/issues"
+  },
+  "homepage": "https://github.com/Neos21/japanese-monospaced-fonts#readme"
+}

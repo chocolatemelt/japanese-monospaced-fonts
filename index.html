@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Japanese Monospace Fonts - Neo's GitHub Pages</title>
+    <title>Japanese Monospaced Fonts - Neo's GitHub Pages</title>
     <link rel="stylesheet" href="../styles.css">
     <link rel="icon" href="/favicon.ico">
     <link rel="icon" href="/favicon-192x192.png" sizes="192x192" type="image/png">
@@ -13,8 +13,9 @@
 
 @font-face {
   font-family: "Noto-Sans-Mono-CJK-JP-Regular";
-  src: url("./NotoSansMonoCJKjp-Regular.woff2") format("woff2"),
-       url("./NotoSansMonoCJKjp-Regular.woff")  format("woff") ;
+  src: url("./NotoSansMonoCJKjp-Regular.woff2") format("woff2")   ,
+       url("./NotoSansMonoCJKjp-Regular.woff")  format("woff")    ,
+       url("./NotoSansMonoCJKjp-Regular.otf")   format("opentype");
 }
 .noto-sans-mono-cjk-jp-regular {
   font-family: "Noto-Sans-Mono-CJK-JP-Regular";
@@ -22,11 +23,61 @@
 
 @font-face {
   font-family: "Noto-Sans-Mono-CJK-JP-Bold";
-  src: url("./NotoSansMonoCJKjp-Bold.woff2") format("woff2"),
-       url("./NotoSansMonoCJKjp-Bold.woff")  format("woff") ;
+  src: url("./NotoSansMonoCJKjp-Bold.woff2") format("woff2")   ,
+       url("./NotoSansMonoCJKjp-Bold.woff")  format("woff")    ,
+       url("./NotoSansMonoCJKjp-Bold.otf")   format("opentype");
 }
 .noto-sans-mono-cjk-jp-bold {
   font-family: "Noto-Sans-Mono-CJK-JP-Bold";
+}
+
+@font-face {
+  font-family: "Noto-Sans-Mono-CJK-JP";
+  font-weight: 100;
+  src: url("./NotoSansMonoCJKjp-Regular.woff2") format("woff2"), url("./NotoSansMonoCJKjp-Regular.woff") format("woff"), url("./NotoSansMonoCJKjp-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto-Sans-Mono-CJK-JP";
+  font-weight: 200;
+  src: url("./NotoSansMonoCJKjp-Regular.woff2") format("woff2"), url("./NotoSansMonoCJKjp-Regular.woff") format("woff"), url("./NotoSansMonoCJKjp-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto-Sans-Mono-CJK-JP";
+  font-weight: 300;
+  src: url("./NotoSansMonoCJKjp-Regular.woff2") format("woff2"), url("./NotoSansMonoCJKjp-Regular.woff") format("woff"), url("./NotoSansMonoCJKjp-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto-Sans-Mono-CJK-JP";
+  font-weight: 400;
+  src: url("./NotoSansMonoCJKjp-Regular.woff2") format("woff2"), url("./NotoSansMonoCJKjp-Regular.woff") format("woff"), url("./NotoSansMonoCJKjp-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto-Sans-Mono-CJK-JP";
+  font-weight: 500;
+  src: url("./NotoSansMonoCJKjp-Regular.woff2") format("woff2"), url("./NotoSansMonoCJKjp-Regular.woff") format("woff"), url("./NotoSansMonoCJKjp-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto-Sans-Mono-CJK-JP";
+  font-weight: 600;
+  src: url("./NotoSansMonoCJKjp-Regular.woff2") format("woff2"), url("./NotoSansMonoCJKjp-Regular.woff") format("woff"), url("./NotoSansMonoCJKjp-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto-Sans-Mono-CJK-JP";
+  font-weight: 700;
+  src: url("./NotoSansMonoCJKjp-Bold.woff2") format("woff2"), url("./NotoSansMonoCJKjp-Bold.woff") format("woff"), url("./NotoSansMonoCJKjp-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto-Sans-Mono-CJK-JP";
+  font-weight: 800;
+  src: url("./NotoSansMonoCJKjp-Bold.woff2") format("woff2"), url("./NotoSansMonoCJKjp-Bold.woff") format("woff"), url("./NotoSansMonoCJKjp-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto-Sans-Mono-CJK-JP";
+  font-weight: 900;
+  src: url("./NotoSansMonoCJKjp-Bold.woff2") format("woff2"), url("./NotoSansMonoCJKjp-Bold.woff") format("woff"), url("./NotoSansMonoCJKjp-Bold.otf") format("opentype");
+}
+.noto-sans-mono-cjk-jp {
+  font-family: "Noto-Sans-Mono-CJK-JP";
 }
 
     </style>
@@ -37,24 +88,47 @@
     </header>
     <main id="main">
       <section>
-        <h1>Japanese Monospace Fonts</h1>
+        <h1>Japanese Monospaced Fonts</h1>
+        <p><a href="https://www.npmjs.com/package/@neos21/japanese-monospaced-fonts"><img src="https://img.shields.io/npm/v/@neos21/japanese-monospaced-fonts.svg" alt="NPM Version" title="NPM Version"></a></p>
         <p>日本語等幅フォント集。</p>
         <section>
           <h2>Noto Sans Mono CJK JP</h2>
           <ul>
-            <li class="noto-sans-mono-cjk-jp-regular">
-              Noto Sans Mono CJK JP Regular
-              <a href="NotoSansMonoCJKjp-Regular.woff">[woff]</a>
-              <a href="NotoSansMonoCJKjp-Regular.woff2">[woff2]</a>
-              <a href="source/NotoSansMonoCJKjp-Regular.otf">(otf)</a>
-            </li>
-            <li class="noto-sans-mono-cjk-jp-bold">
-              Noto Sans Mono CJK JP Bold
-              <a href="NotoSansMonoCJKjp-Bold.woff">[woff]</a>
-              <a href="NotoSansMonoCJKjp-Bold.woff2">[woff2]</a>
-              <a href="source/NotoSansMonoCJKjp-Bold.otf">(otf)</a>
-            </li>
+            <li>出典 : <a href="https://www.google.com/get/noto/#sans-jpan">Google Noto Fonts - Noto Sans CJK JP</a> に含まれる <code>NotoSansMonoCJKjp-Regular.otf</code>・<code>NotoSansMonoCJKjp-Bold.otf</code></li>
+            <li><a href="https://opentype.jp/woffconv.htm">WOFF コンバータ</a>にて WOFF2・WOFF に変換</li>
           </ul>
+          <dl>
+            <dt>
+              <div class="noto-sans-mono-cjk-jp-regular">
+                Noto Sans Mono CJK JP Regular
+                <a href="NotoSansMonoCJKjp-Regular.woff2">[woff2]</a>
+                <a href="NotoSansMonoCJKjp-Regular.woff">[woff]</a>
+                <a href="NotoSansMonoCJKjp-Regular.otf">[otf (Source)]</a>
+              </div>
+            </dt>
+            <dd>
+              <p class="noto-sans-mono-cjk-jp-regular"><b>Lorem ipsum</b> (<b>ロレム・イプサム</b>、略して<i>リプサム lipsum</i> ともいう) とは、出版、ウェブデザイン、グラフィックデザインなどの諸分野において使用されている典型的なダミーテキスト。書籍やウェブページや広告などのデザインのプロトタイプを制作したり顧客にプレゼンテーションしたりする際に、まだ正式な文章の出来上がっていないテキスト部分の書体 (フォント)、タイポグラフィ、レイアウトなどといった視覚的なデザインを調整したりわかりやすく見せるために用いられる。</p>
+            </dd>
+            <dt>
+              <div class="noto-sans-mono-cjk-jp-bold">
+                Noto Sans Mono CJK JP Bold
+                <a href="NotoSansMonoCJKjp-Bold.woff2">[woff2]</a>
+                <a href="NotoSansMonoCJKjp-Bold.woff">[woff]</a>
+                <a href="NotoSansMonoCJKjp-Bold.otf">[otf (Source)]</a>
+              </div>
+            </dt>
+            <dd>
+              <p class="noto-sans-mono-cjk-jp-bold"><b>Lorem ipsum</b> (<b>ロレム・イプサム</b>、略して<i>リプサム lipsum</i> ともいう) とは、出版、ウェブデザイン、グラフィックデザインなどの諸分野において使用されている典型的なダミーテキスト。書籍やウェブページや広告などのデザインのプロトタイプを制作したり顧客にプレゼンテーションしたりする際に、まだ正式な文章の出来上がっていないテキスト部分の書体 (フォント)、タイポグラフィ、レイアウトなどといった視覚的なデザインを調整したりわかりやすく見せるために用いられる。</p>
+            </dd>
+            <dt>
+              <div class="noto-sans-mono-cjk-jp">
+                Noto Sans Mono CJK JP - Regular &amp; Bold <code>@font-face</code>
+              </div>
+            </dt>
+            <dd>
+              <p class="noto-sans-mono-cjk-jp"><b>Lorem ipsum</b> (<b>ロレム・イプサム</b>、略して<i>リプサム lipsum</i> ともいう) とは、出版、ウェブデザイン、グラフィックデザインなどの諸分野において使用されている典型的なダミーテキスト。書籍やウェブページや広告などのデザインのプロトタイプを制作したり顧客にプレゼンテーションしたりする際に、まだ正式な文章の出来上がっていないテキスト部分の書体 (フォント)、タイポグラフィ、レイアウトなどといった視覚的なデザインを調整したりわかりやすく見せるために用いられる。</p>
+            </dd>
+          </dl>
         </section>
         <section>
           <h2>Links</h2>
@@ -65,6 +139,9 @@
             <li><a href="http://neos21.hateblo.jp/">El Mylar</a></li>
             <li><a href="http://bit-archer.hatenablog.com/">Bit-Archer</a></li>
             <li><a href="https://github.com/Neos21/">GitHub - Neos21</a></li>
+            <li><a href="https://github.com/Neos21/japanese-monospaced-fonts">GitHub - Neos21 - japanese-monospaced-fonts</a></li>
+            <li><a href="https://neos21.github.io/japanese-monospaced-fonts/">GitHub Pages - japanese-monospaced-fonts</a></li>
+            <li><a href="https://www.npmjs.com/package/@neos21/japanese-monospaced-fonts">npm - @neos21/japanese-monospaced-fonts</a></li>
           </ul>
         </section>
       </section>
