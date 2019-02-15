@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Japanese Monospaced Fonts</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../scripts.js"></script>
+    <style id="example-styles">
+
+@font-face {
+  font-family: "Ricty Regular";
+  src: url("./Ricty-Regular.ttf") format("truetype");
+}
+.ricty-regular {
+  font-family: "Ricty Regular";
+}
+
+/* -------------------------------------------------- */
+
+@font-face {
+  font-family: "Ricty Bold";
+  src: url("./Ricty-Bold.ttf") format("truetype");
+}
+.ricty-bold {
+  font-family: "Ricty Bold";
+}
+
+/* -------------------------------------------------- */
+
+@font-face {
+  font-family: "Ricty";
+  font-weight: 100;
+  src: url("./Ricty-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Ricty";
+  font-weight: 200;
+  src: url("./Ricty-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Ricty";
+  font-weight: 300;
+  src: url("./Ricty-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Ricty";
+  font-weight: 400;
+  src: url("./Ricty-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Ricty";
+  font-weight: 500;
+  src: url("./Ricty-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Ricty";
+  font-weight: 600;
+  src: url("./Ricty-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Ricty";
+  font-weight: 700;
+  src: url("./Ricty-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Ricty";
+  font-weight: 800;
+  src: url("./Ricty-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Ricty";
+  font-weight: 900;
+  src: url("./Ricty-Bold.ttf") format("truetype");
+}
+.ricty {
+  font-family: "Ricty";
+}
+
+    </style>
+  </head>
+  <body>
+
+<h1>Ricty</h1>
+<ul>
+  <li><a href="https://www.rs.tus.ac.jp/yyusa/ricty.html">プログラミング用フォント Ricty</a></li>
+</ul>
+
+<h2 class="ricty-regular">Ricty - Regular</h2>
+<p class="ricty-regular example-text">Example Text</p>
+
+<h2 class="ricty-bold">Ricty - Bold</h2>
+<p class="ricty-bold example-text">Example Text</p>
+
+<h2 class="ricty">Ricty - <code>@font-face</code></h2>
+<p class="ricty example-text">Example Text</p>
+<ul>
+  <li>バッククォート記号 <code>`</code> に半角文字の幅がなく表示が崩れる不具合アリ (<a href="https://qiita.com/uKLEina/items/ff0877871fc425952b92">Qiita - Ricty のバッククオートを修正する</a>)</li>
+</ul>
+<pre id="example-styles-code" class="ricty">Example Styles Code</pre>
+
+  </body>
+</html>

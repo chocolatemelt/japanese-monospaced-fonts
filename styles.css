@@ -1,0 +1,28 @@
+body {
+  margin: 1em;
+}
+
+h2 {
+  margin-top: 2em;
+}
+
+pre {
+  border: 1px solid #999b9d;
+  border-radius: 4px;
+  padding: 1em;
+  background: #f0f2f4;
+  overflow-x: auto;
+}
+
+b {
+  color: #c00;
+}
+
+i {
+  color: #080;
+}
+
+.example-text {
+  overflow-x: auto;
+  white-space: nowrap;
+}
