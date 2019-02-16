@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Japanese Monospaced Fonts</title>
+    <link rel="stylesheet" href="https://neos21.github.io/japanese-monospaced-fonts/styles.css">
+    <script src="https://neos21.github.io/japanese-monospaced-fonts/scripts.js"></script>
+    <style id="example-styles">
+
+@font-face {
+  font-family: "Noto Sans Mono CJK JP Regular";
+  src: url("./NotoSansMonoCJKJP-Regular.otf") format("opentype");
+}
+.noto-sans-mono-cjk-jp-regular {
+  font-family: "Noto Sans Mono CJK JP Regular";
+}
+
+/* -------------------------------------------------- */
+
+@font-face {
+  font-family: "Noto Sans Mono CJK JP Bold";
+  src: url("./NotoSansMonoCJKJP-Bold.otf") format("opentype");
+}
+.noto-sans-mono-cjk-jp-bold {
+  font-family: "Noto Sans Mono CJK JP Bold";
+}
+
+/* -------------------------------------------------- */
+
+@font-face {
+  font-family: "Noto Sans Mono CJK JP";
+  font-weight: 100;
+  src: url("./NotoSansMonoCJKJP-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans Mono CJK JP";
+  font-weight: 200;
+  src: url("./NotoSansMonoCJKJP-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans Mono CJK JP";
+  font-weight: 300;
+  src: url("./NotoSansMonoCJKJP-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans Mono CJK JP";
+  font-weight: 400;
+  src: url("./NotoSansMonoCJKJP-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans Mono CJK JP";
+  font-weight: 500;
+  src: url("./NotoSansMonoCJKJP-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans Mono CJK JP";
+  font-weight: 600;
+  src: url("./NotoSansMonoCJKJP-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans Mono CJK JP";
+  font-weight: 700;
+  src: url("./NotoSansMonoCJKJP-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans Mono CJK JP";
+  font-weight: 800;
+  src: url("./NotoSansMonoCJKJP-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans Mono CJK JP";
+  font-weight: 900;
+  src: url("./NotoSansMonoCJKJP-Bold.otf") format("opentype");
+}
+.noto-sans-mono-cjk-jp {
+  font-family: "Noto Sans Mono CJK JP";
+}
+
+    </style>
+  </head>
+  <body>
+
+<h1>Noto Sans Mono CJK JP</h1>
+<ul>
+  <li><a href="https://www.google.com/get/noto/#sans-jpan">Google Noto Fonts - Noto Sans CJK JP</a></li>
+</ul>
+
+<h2 class="noto-sans-mono-cjk-jp-regular">Noto Sans Mono CJK JP - Regular</h2>
+<p class="noto-sans-mono-cjk-jp-regular example-text">Example Text</p>
+
+<h2 class="noto-sans-mono-cjk-jp-bold">Noto Sans Mono CJK JP - Bold</h2>
+<p class="noto-sans-mono-cjk-jp-bold example-text">Example Text</p>
+
+<h2 class="noto-sans-mono-cjk-jp">Noto Sans Mono CJK JP - <code>@font-face</code></h2>
+<p class="noto-sans-mono-cjk-jp example-text">Example Text</p>
+<ul>
+  <li>Mac では「FontBook.app」における「PostScript 名」である <code>local(&quot;NotoSansMonoCJKjp-Regular&quot;)</code>・<code>local(&quot;NotoSansMonoCJKjp-Bold&quot;)</code> 表記が有効になり、「正式名称」である <code>local(&quot;Noto Sans Mono CJK JP Regular&quot;)</code>・<code>local(&quot;Noto Sans Mono CJK JP Bold&quot;)</code> 表記は効かなかった。「ファミリー」指定 <code>local(&quot;Noto Sans Mono CJK JP&quot;)</code> も有効ではあったが、<code>font-weight</code> 指定が正しくできなくなるので使用しない方が良い</li>
+  <li>Windows では <code>local(&quot;NotoSansMonoCJKjp-Regular&quot;)</code>・<code>local(&quot;Noto Sans Mono CJK JP Regular&quot;)</code>・<code>local(&quot;NotoSansMonoCJKjp-Bold&quot;)</code>・<code>local(&quot;Noto Sans Mono CJK JP Bold&quot;)</code> の4つの指定が効かず、<code>local(&quot;Noto Sans Mono CJK JP&quot;)</code> のみ使用できたが、<code>font-weight</code> を指定しても Bold が有効にならなかった</li>
+  <li><code>url()</code> で Web フォントを読み込む場合は問題なし。よって、<code>local()</code> 指定は Mac 向けに「PostScript 名」表記のみすれば良いが、上手く認識される可能性がある「正式名称」を念のために併記し、それから Web フォントを読み込ませる順序が最適と考える</li>
+</ul>
+<pre id="example-styles-code" class="noto-sans-mono-cjk-jp">Example Styles Code</pre>
+
+  </body>
+</html>

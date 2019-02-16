@@ -1,0 +1,9 @@
+{
+  "name": "@japanese-monospaced-fonts/noto-sans-mono-cjk-jp",
+  "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/japanese-monospaced-fonts.git"
+  },
+  "homepage": "https://github.com/Neos21/japanese-monospaced-fonts#readme"
+}
